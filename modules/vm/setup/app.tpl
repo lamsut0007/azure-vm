@@ -12,7 +12,7 @@ sudo dnf module reset -y php
 sudo dnf module enable -y php:remi-8.3
 
 # Install Apache 2.4.6 + PHP 8.3 core
-sudo dnf install -y httpd mod_ssl php php-cli php-common php-fpm php-pdo php-opcache unzip curl git
+sudo dnf install -y httpd mod_ssl php php-cli php-common php-fpm php-pdo php-opcache zip unzip curl git
 
 # Install PHP 8.3 and extensions
 sudo dnf install -y \
